@@ -2,6 +2,42 @@ header {
 	background-color: lightblue;
 }
 
-.info{
+.info {
 	background-color: gray;
+}
+
+h3 {
+	background-color: lightgreen;
+}
+
+@keyframes rotate {
+	from {
+		rotate: 90deg;
+	}
+
+	to {
+		rotate: 180deg;
+	}
+
+	to {
+		rotate: 90deg;
+	}
+
+	to {
+		rotate: 0deg;
+	}
+}
+
+@keyframes wave {}
+
+img {
+	border-color: black;
+	border-style: double;
+	border-width: 10px;
+	width: 250px;
+	height: 250px;
+	animation-name: rotate;
+	animation-duration: 3s;
+	animation-iteration-count: 2;
+	animation-direction: alternate-reverse;
 }
