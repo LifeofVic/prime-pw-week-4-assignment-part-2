@@ -4,10 +4,13 @@ header {
 
 .info {
 	background-color: gray;
+	text-align: center;
+
 }
 
 h3 {
 	background-color: lightgreen;
+	text-align: center;
 }
 
 @keyframes rotate {
@@ -40,4 +43,10 @@ img {
 	animation-duration: 3s;
 	animation-iteration-count: 2;
 	animation-direction: alternate-reverse;
+}
+
+.picture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
